@@ -23,7 +23,7 @@ public class SuperPerson {
 
     //methods
 
-    //hashmap
+    //hashmap for battle log
     private Map<String, Integer> battleLog = new HashMap<>();
 
     //method to update the log entry for our SuperPerson
@@ -65,6 +65,7 @@ public class SuperPerson {
 
         } else {
             //no power-up available for use
+            System.out.println("No power-up available for use ");
             return 0;
         }
     }
