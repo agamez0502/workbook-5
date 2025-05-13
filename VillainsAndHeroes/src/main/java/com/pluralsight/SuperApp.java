@@ -1,16 +1,21 @@
 package com.pluralsight;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class SuperApp {
 
     public static void main(String[] args) {
 
         // Create a hero object with a name, health, and powerLevel
         SuperHero hero = new SuperHero("Alondra", 100, 10);
+        System.out.println(hero.name + " is a " + hero.getType());
 
         // Create a villain object with a name, health, and evilness
         SuperVillain villain = new SuperVillain("Andrew", 100, 5);
+        System.out.println(villain.name + " is a " + villain.getType());
+
+//        // If hero is an instance of SuperHero, say hello
+//        if(hero instanceof SuperHero){
+//            System.out.println("Hello");
+//        }
 
         // Display an introduction message
         try {
