@@ -46,18 +46,18 @@ public class House extends Asset {
         return (squareFoot * cost) + (lotSize * 0.25);
     }
 
-    public static String getConditionInfo(int conditionRating){
+    public static String getConditionInfo(int conditionRating) {
         switch (conditionRating) {
             case 1:
-                return "Excellente";
+                return "Excellente ⭐⭐⭐⭐⭐";
             case 2:
-                return "Good";
+                return "Good ⭐⭐⭐⭐";
             case 3:
-                return "Fair";
+                return "Fair ⭐⭐";
             case 4:
-                return "Poor";
+                return "Poor ⭐";
             default:
-                return "Unknown";
+                return "Unknown ❓";
         }
     }
 
