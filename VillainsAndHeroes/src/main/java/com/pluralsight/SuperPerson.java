@@ -3,7 +3,7 @@ package com.pluralsight;
 import java.util.*;
 
 //abstract class prevents instantiation and serves as a blueprint for subclasses
-public abstract class SuperPerson {
+public abstract class SuperPerson implements Fightable {
 
     //protected means so they can possibly be accessed by our children, grand children, etc.
     //these properties stay in the family - this class and subclasses
@@ -86,7 +86,7 @@ public abstract class SuperPerson {
     }
 
     //method that allows us to fight another SuperPerson
-    public abstract void fight(SuperPerson opponent);
+//    public abstract void fight(SuperPerson opponent);
 //        //generate a random amount of damage
 //        //this line returns a number between 0 and 20
 //        int damageAmount = new Random().nextInt(21);
