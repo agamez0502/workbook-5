@@ -17,19 +17,19 @@ public class SidekickDog implements Fightable {
     //methods
 
     //method to return health if our SidekickDog is alive
-    public boolean isAlive(){
+    public boolean isAlive() {
         //if the health is greater than zero, return true, otherwise return false
         return health > 0;
     }
 
     //method - a way to ask the SidekickDog how they are doing
-    public String getStatus(){
+    public String getStatus() {
         //build and return a string that tells us how the SuperPerson is doing
         return this.name + " (SidekickDog) has " + this.health + " health ❤\uFE0F left!";
     }
 
     @Override
-    public void fight(SuperPerson opponent){
+    public void fight(SuperPerson opponent) {
         System.out.println("The Sidekick dog howls at the moon!");
         opponent.takeDamage(this.barkPower);
     }
