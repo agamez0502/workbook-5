@@ -40,17 +40,16 @@ From class hierarchies to polymorphism and abstraction, this workbook is your st
 
 ---
 
-## 🛠️ Skills You’ll Gain
-- Building powerful class hierarchies 🏛️  
-- Using inheritance to reduce code duplication 🔁  
-- Applying polymorphism to write flexible and reusable code 🔄  
-- Creating abstract templates for consistent behavior across subclasses 🧩
+## 💡 Core Concepts
 
----
-
-## 💡 Pro Tips
-- Don't just read — write and refactor your own examples 💪   
-- Think in *systems*, not just syntax 🧠➡️⚙️
+- 🧬 **Inheritance** — Allows a class to acquire properties and methods from another class, promoting code reuse and hierarchy modeling.  
+- 🔁 **Method Overriding** — Enables a subclass to provide a specific implementation of a method already defined in its superclass.  
+- 🧩 **Polymorphism** — Supports the use of a single interface to represent different underlying data types, allowing flexible code execution.  
+- 🔍 **instanceof Operator** — Determines whether an object is an instance of a specific class or subclass.  
+- 🧠 **getClass()** — Retrieves the runtime class of an object for type-checking and reflection purposes.  
+- 📝 **@Override Annotation** — Signals that a method is overriding a superclass method, improving code clarity and correctness.  
+- 📦 **Abstract Classes** — Provides a partially implemented class meant to be extended by subclasses with concrete behavior.  
+- 🔧 **Abstract Methods** — Declares methods without implementation, forcing subclasses to provide concrete definitions.
 
 ---
 
